@@ -1,0 +1,1292 @@
+INFO:2021-11-23 21:29:12,931:Stop polling...
+WARNING:2021-11-23 21:29:12,931:Goodbye!
+INFO:2021-11-23 21:29:15,508:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:29:16,683:Updates were skipped successfully.
+INFO:2021-11-23 21:29:17,041:Start polling.
+INFO:2021-11-23 21:29:19,144:Stop polling...
+WARNING:2021-11-23 21:29:19,145:Goodbye!
+INFO:2021-11-23 21:29:22,370:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:29:23,597:Updates were skipped successfully.
+INFO:2021-11-23 21:29:24,273:Start polling.
+ERROR:2021-11-23 21:29:30,151:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 46, in send_Message
+    await bot.edit_message_text("123123")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+INFO:2021-11-23 21:29:49,803:Stop polling...
+WARNING:2021-11-23 21:29:49,803:Goodbye!
+INFO:2021-11-23 21:29:52,135:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:29:53,282:Updates were skipped successfully.
+INFO:2021-11-23 21:29:53,565:Start polling.
+ERROR:2021-11-23 21:30:03,220:Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 46, in send_Message
+    await bot.edit_message_text("123123")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+INFO:2021-11-23 21:30:21,673:Stop polling...
+WARNING:2021-11-23 21:30:21,673:Goodbye!
+INFO:2021-11-23 21:30:24,113:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:30:25,346:Updates were skipped successfully.
+INFO:2021-11-23 21:30:25,773:Start polling.
+INFO:2021-11-23 21:31:21,280:Stop polling...
+WARNING:2021-11-23 21:31:21,280:Goodbye!
+INFO:2021-11-23 21:31:23,610:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:31:24,831:Updates were skipped successfully.
+INFO:2021-11-23 21:31:25,353:Start polling.
+ERROR:2021-11-23 21:31:34,115:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 46, in send_Message
+    await bot.edit_message_text("123123")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+INFO:2021-11-23 21:32:02,453:Stop polling...
+WARNING:2021-11-23 21:32:02,453:Goodbye!
+INFO:2021-11-23 21:32:04,966:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:32:06,173:Updates were skipped successfully.
+INFO:2021-11-23 21:32:06,723:Start polling.
+ERROR:2021-11-23 21:32:18,701:Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 46, in send_Message
+    await bot.edit_message_text("123123")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+INFO:2021-11-23 21:38:59,792:Stop polling...
+WARNING:2021-11-23 21:38:59,792:Goodbye!
+INFO:2021-11-23 21:39:02,483:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:39:03,639:Updates were skipped successfully.
+INFO:2021-11-23 21:39:04,107:Start polling.
+ERROR:2021-11-23 21:39:06,419:Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=BadRequest('Inline keyboard button url is invalid')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\catch_parsers.py", line 24, in send_message
+    await message.answer("Выбери необходимый тебе парсер: ", reply_markup=kb)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\types\message.py", line 361, in answer
+    return await self.bot.send_message(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 314, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Inline keyboard button url is invalid
+ERROR:2021-11-23 21:39:09,019:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=BadRequest('Inline keyboard button url is invalid')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\catch_parsers.py", line 24, in send_message
+    await message.answer("Выбери необходимый тебе парсер: ", reply_markup=kb)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\types\message.py", line 361, in answer
+    return await self.bot.send_message(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 314, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Inline keyboard button url is invalid
+INFO:2021-11-23 21:40:06,911:Stop polling...
+WARNING:2021-11-23 21:40:06,913:Goodbye!
+INFO:2021-11-23 21:40:11,380:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:40:12,608:Updates were skipped successfully.
+INFO:2021-11-23 21:40:12,991:Start polling.
+INFO:2021-11-23 21:44:33,750:Stop polling...
+WARNING:2021-11-23 21:44:33,750:Goodbye!
+INFO:2021-11-23 21:44:36,290:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:44:37,510:Updates were skipped successfully.
+INFO:2021-11-23 21:44:37,927:Start polling.
+INFO:2021-11-23 21:47:11,914:Stop polling...
+WARNING:2021-11-23 21:47:11,916:Goodbye!
+INFO:2021-11-23 21:47:14,703:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:47:15,829:Updates were skipped successfully.
+INFO:2021-11-23 21:47:16,238:Start polling.
+INFO:2021-11-23 21:49:02,628:Stop polling...
+WARNING:2021-11-23 21:49:02,628:Goodbye!
+INFO:2021-11-23 21:49:05,803:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:49:07,036:Updates were skipped successfully.
+INFO:2021-11-23 21:49:07,548:Start polling.
+INFO:2021-11-23 21:51:32,564:Stop polling...
+WARNING:2021-11-23 21:51:32,572:Goodbye!
+INFO:2021-11-23 21:51:56,814:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 21:51:58,042:Updates were skipped successfully.
+INFO:2021-11-23 21:51:58,464:Start polling.
+INFO:2021-11-23 22:04:33,326:Stop polling...
+WARNING:2021-11-23 22:04:33,334:Goodbye!
+INFO:2021-11-23 22:11:54,380:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:11:55,510:Updates were skipped successfully.
+INFO:2021-11-23 22:11:55,789:Start polling.
+INFO:2021-11-23 22:12:17,977:Stop polling...
+WARNING:2021-11-23 22:12:17,977:Goodbye!
+INFO:2021-11-23 22:12:20,147:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:12:21,314:Updates were skipped successfully.
+INFO:2021-11-23 22:12:21,794:Start polling.
+INFO:2021-11-23 22:14:02,617:Stop polling...
+WARNING:2021-11-23 22:14:02,619:Goodbye!
+INFO:2021-11-23 22:14:04,904:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:14:06,070:Updates were skipped successfully.
+INFO:2021-11-23 22:14:06,379:Start polling.
+INFO:2021-11-23 22:17:05,717:Stop polling...
+WARNING:2021-11-23 22:17:05,718:Goodbye!
+INFO:2021-11-23 22:17:08,341:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:17:09,564:Updates were skipped successfully.
+INFO:2021-11-23 22:17:09,954:Start polling.
+INFO:2021-11-23 22:17:48,315:Stop polling...
+WARNING:2021-11-23 22:17:48,316:Goodbye!
+INFO:2021-11-23 22:17:50,608:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:17:51,860:Updates were skipped successfully.
+INFO:2021-11-23 22:17:52,151:Start polling.
+INFO:2021-11-23 22:20:00,816:Stop polling...
+WARNING:2021-11-23 22:20:00,816:Goodbye!
+INFO:2021-11-23 22:52:03,750:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:52:03,918:Updates were skipped successfully.
+INFO:2021-11-23 22:52:04,287:Start polling.
+INFO:2021-11-23 22:52:28,966:Stop polling...
+WARNING:2021-11-23 22:52:28,968:Goodbye!
+INFO:2021-11-23 22:52:31,403:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:52:32,629:Updates were skipped successfully.
+INFO:2021-11-23 22:52:33,142:Start polling.
+INFO:2021-11-23 22:52:53,632:Stop polling...
+WARNING:2021-11-23 22:52:53,632:Goodbye!
+INFO:2021-11-23 22:53:54,049:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 22:53:55,265:Updates were skipped successfully.
+INFO:2021-11-23 22:53:55,574:Start polling.
+INFO:2021-11-23 22:54:33,249:Stop polling...
+WARNING:2021-11-23 22:54:33,249:Goodbye!
+INFO:2021-11-23 23:09:15,840:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:09:17,068:Updates were skipped successfully.
+INFO:2021-11-23 23:09:17,381:Start polling.
+INFO:2021-11-23 23:10:01,171:Stop polling...
+WARNING:2021-11-23 23:10:01,171:Goodbye!
+INFO:2021-11-23 23:10:03,429:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:10:04,560:Updates were skipped successfully.
+INFO:2021-11-23 23:10:04,829:Start polling.
+INFO:2021-11-23 23:10:20,462:Stop polling...
+WARNING:2021-11-23 23:10:20,462:Goodbye!
+INFO:2021-11-23 23:10:22,780:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:10:23,980:Updates were skipped successfully.
+INFO:2021-11-23 23:10:24,350:Start polling.
+INFO:2021-11-23 23:10:56,600:Stop polling...
+WARNING:2021-11-23 23:10:56,600:Goodbye!
+INFO:2021-11-23 23:14:42,291:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:14:43,520:Updates were skipped successfully.
+INFO:2021-11-23 23:14:43,934:Start polling.
+INFO:2021-11-23 23:22:24,624:Stop polling...
+WARNING:2021-11-23 23:22:24,624:Goodbye!
+INFO:2021-11-23 23:22:27,772:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:22:28,626:Updates were skipped successfully.
+INFO:2021-11-23 23:22:29,040:Start polling.
+INFO:2021-11-23 23:24:00,242:Stop polling...
+WARNING:2021-11-23 23:24:00,242:Goodbye!
+INFO:2021-11-23 23:24:04,364:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:24:05,596:Updates were skipped successfully.
+INFO:2021-11-23 23:24:05,922:Start polling.
+ERROR:2021-11-23 23:24:13,759:Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 50, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+ERROR:2021-11-23 23:24:16,100:Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 50, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+ERROR:2021-11-23 23:24:19,070:Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 50, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+ERROR:2021-11-23 23:24:20,759:Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageIdentifierNotSpecified('Message identifier is not specified')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 50, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageIdentifierNotSpecified: Message identifier is not specified
+INFO:2021-11-23 23:24:26,372:Stop polling...
+WARNING:2021-11-23 23:24:26,373:Goodbye!
+INFO:2021-11-23 23:25:12,875:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:25:14,066:Updates were skipped successfully.
+INFO:2021-11-23 23:25:14,412:Start polling.
+ERROR:2021-11-23 23:25:20,979:Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageCantBeEdited("Message can't be edited")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 50, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул", message.from_user.id, message.message_id)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeEdited: Message can't be edited
+INFO:2021-11-23 23:30:56,871:Stop polling...
+WARNING:2021-11-23 23:30:56,879:Goodbye!
+INFO:2021-11-23 23:30:59,498:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:31:00,935:Updates were skipped successfully.
+INFO:2021-11-23 23:31:01,343:Start polling.
+ERROR:2021-11-23 23:31:12,005:Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageCantBeEdited("Message can't be edited")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 50, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул", message.from_user.id, message.message_id)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeEdited: Message can't be edited
+INFO:2021-11-23 23:32:13,221:Stop polling...
+WARNING:2021-11-23 23:32:13,221:Goodbye!
+INFO:2021-11-23 23:32:15,991:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:32:17,177:Updates were skipped successfully.
+INFO:2021-11-23 23:32:17,512:Start polling.
+ERROR:2021-11-23 23:32:24,766:Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageCantBeEdited("Message can't be edited")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 51, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул", message.from_user.id, message.message_id)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeEdited: Message can't be edited
+INFO:2021-11-23 23:32:49,731:Stop polling...
+WARNING:2021-11-23 23:32:49,731:Goodbye!
+INFO:2021-11-23 23:32:52,137:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:32:53,361:Updates were skipped successfully.
+INFO:2021-11-23 23:32:53,754:Start polling.
+ERROR:2021-11-23 23:33:01,919:Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=MessageCantBeEdited("Message can't be edited")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 52, in send_message
+    await bot.edit_message_text("Отправь категорию, в которой нужно найти этот артикул", message.from_user.id, message.message_id)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2411, in edit_message_text
+    result = await self.request(api.Methods.EDIT_MESSAGE_TEXT, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.MessageCantBeEdited: Message can't be edited
+INFO:2021-11-23 23:33:55,279:Stop polling...
+WARNING:2021-11-23 23:33:55,279:Goodbye!
+INFO:2021-11-23 23:33:57,677:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:33:58,801:Updates were skipped successfully.
+INFO:2021-11-23 23:33:59,216:Start polling.
+INFO:2021-11-23 23:34:55,430:Stop polling...
+WARNING:2021-11-23 23:34:55,438:Goodbye!
+INFO:2021-11-23 23:34:58,358:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:34:59,525:Updates were skipped successfully.
+INFO:2021-11-23 23:34:59,936:Start polling.
+INFO:2021-11-23 23:35:17,884:Stop polling...
+WARNING:2021-11-23 23:35:17,884:Goodbye!
+INFO:2021-11-23 23:44:09,108:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:44:10,353:Updates were skipped successfully.
+INFO:2021-11-23 23:44:10,643:Start polling.
+ERROR:2021-11-23 23:44:29,995:Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=TypeError("parse_state() missing 1 required positional argument: 'state'")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(state)
+TypeError: parse_state() missing 1 required positional argument: 'state'
+INFO:2021-11-23 23:45:07,757:Stop polling...
+WARNING:2021-11-23 23:45:07,757:Goodbye!
+INFO:2021-11-23 23:45:10,649:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-23 23:45:11,675:Updates were skipped successfully.
+INFO:2021-11-23 23:45:12,082:Start polling.
+ERROR:2021-11-23 23:45:22,835:Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=TypeError("POST_WB_PLACE_REQUEST() missing 1 required positional argument: 'task_id'")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(message, state)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 80, in parse_state
+    SQL().POST_WB_PLACE_REQUEST(user_id, article, geo, category, )
+TypeError: POST_WB_PLACE_REQUEST() missing 1 required positional argument: 'task_id'
+ERROR:2021-11-24 01:12:13,525:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 544, in _request
+    await resp.start(conn)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    self._continue = None
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:2021-11-24 16:43:33,861:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 544, in _request
+    await resp.start(conn)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    self._continue = None
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+INFO:2021-11-24 16:43:40,241:Пользователь создан: 1301860962, None
+INFO:2021-11-24 16:43:41,722:Пользователь создан: 368629448, duwil
+INFO:2021-11-24 18:16:40,235:Stop polling...
+WARNING:2021-11-24 18:16:40,235:Goodbye!
+INFO:2021-11-24 20:05:46,730:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:05:47,961:Updates were skipped successfully.
+INFO:2021-11-24 20:05:48,370:Start polling.
+INFO:2021-11-24 20:11:37,563:Stop polling...
+WARNING:2021-11-24 20:11:37,564:Goodbye!
+INFO:2021-11-24 20:11:39,911:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:11:41,140:Updates were skipped successfully.
+INFO:2021-11-24 20:11:41,534:Start polling.
+INFO:2021-11-24 20:12:11,524:Stop polling...
+WARNING:2021-11-24 20:12:11,532:Goodbye!
+INFO:2021-11-24 20:43:24,630:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:43:25,883:Updates were skipped successfully.
+INFO:2021-11-24 20:43:26,293:Start polling.
+ERROR:2021-11-24 20:43:48,719:Task exception was never retrieved
+future: <Task finished name='Task-39' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=TypeError('post_wb_place_user_request() takes 6 positional arguments but 7 were given')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(message, state)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 79, in parse_state
+    SQL().post_wb_place_user_request(user_id, task_id, geo, category, article, 0)
+TypeError: post_wb_place_user_request() takes 6 positional arguments but 7 were given
+INFO:2021-11-24 20:46:22,660:Stop polling...
+WARNING:2021-11-24 20:46:22,660:Goodbye!
+INFO:2021-11-24 20:46:25,179:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:46:26,414:Updates were skipped successfully.
+INFO:2021-11-24 20:46:26,828:Start polling.
+ERROR:2021-11-24 20:46:40,363:Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1)' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(message, state)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 79, in parse_state
+    SQL().post_wb_place_user_request(user_id, task_id, geo, category, article, user_got=1)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 130, in post_wb_place_user_request
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''1)' at line 1
+INFO:2021-11-24 20:47:19,498:Stop polling...
+WARNING:2021-11-24 20:47:19,498:Goodbye!
+INFO:2021-11-24 20:47:22,121:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:47:23,349:Updates were skipped successfully.
+INFO:2021-11-24 20:47:23,695:Start polling.
+ERROR:2021-11-24 20:47:33,960:Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=DatabaseError(1364, "1364 (HY000): Field 'request_id' doesn't have a default value", 'HY000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(message, state)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 79, in parse_state
+    SQL().post_wb_place_user_request(user_id, task_id, geo, category, article, user_got=1)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 130, in post_wb_place_user_request
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1364 (HY000): Field 'request_id' doesn't have a default value
+INFO:2021-11-24 20:49:00,180:Stop polling...
+WARNING:2021-11-24 20:49:00,180:Goodbye!
+INFO:2021-11-24 20:49:02,669:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:49:03,804:Updates were skipped successfully.
+INFO:2021-11-24 20:49:04,115:Start polling.
+ERROR:2021-11-24 20:49:12,847:Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=DatabaseError(1364, "1364 (HY000): Field 'request_id' doesn't have a default value", 'HY000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(message, state)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 79, in parse_state
+    SQL().post_wb_place_user_request(user_id, task_id, geo, category, article, user_got=1)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 130, in post_wb_place_user_request
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1364 (HY000): Field 'request_id' doesn't have a default value
+INFO:2021-11-24 20:50:04,679:Stop polling...
+WARNING:2021-11-24 20:50:04,679:Goodbye!
+INFO:2021-11-24 20:50:07,087:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:50:08,314:Updates were skipped successfully.
+INFO:2021-11-24 20:50:08,726:Start polling.
+ERROR:2021-11-24 20:50:17,631:Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=DatabaseError(1364, "1364 (HY000): Field 'time_added' doesn't have a default value", 'HY000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(message, state)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 79, in parse_state
+    SQL().post_wb_place_user_request(user_id, task_id, geo, category, article, user_got=1)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 130, in post_wb_place_user_request
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1364 (HY000): Field 'time_added' doesn't have a default value
+INFO:2021-11-24 20:52:06,396:Stop polling...
+WARNING:2021-11-24 20:52:06,396:Goodbye!
+INFO:2021-11-24 20:52:09,145:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:52:10,376:Updates were skipped successfully.
+INFO:2021-11-24 20:52:10,684:Start polling.
+INFO:2021-11-24 20:52:26,748:Stop polling...
+WARNING:2021-11-24 20:52:26,748:Goodbye!
+INFO:2021-11-24 20:52:30,748:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-24 20:52:31,889:Updates were skipped successfully.
+INFO:2021-11-24 20:52:32,216:Start polling.
+ERROR:2021-11-24 22:10:08,082:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 544, in _request
+    await resp.start(conn)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    self._continue = None
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:2021-11-24 23:55:12,499:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 544, in _request
+    await resp.start(conn)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    self._continue = None
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+INFO:2021-11-24 23:55:18,792:Пользователь создан: 663117993, None
+INFO:2021-11-25 00:05:02,900:Stop polling...
+WARNING:2021-11-25 00:05:02,900:Goodbye!
+INFO:2021-11-25 00:40:28,755:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-25 00:40:30,005:Updates were skipped successfully.
+INFO:2021-11-25 00:40:30,376:Start polling.
+ERROR:2021-11-25 00:40:43,195:Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1054, "1054 (42S22): Unknown column 'parsed_at' in 'field list'", '42S22')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 68, in send_message
+    await parse_state(message, state)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 79, in parse_state
+    SQL().post_wb_place_user_request(user_id, task_id, geo, category, article, user_got=0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 130, in post_wb_place_user_request
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1054 (42S22): Unknown column 'parsed_at' in 'field list'
+INFO:2021-11-25 00:41:41,934:Stop polling...
+WARNING:2021-11-25 00:41:41,934:Goodbye!
+INFO:2021-11-25 00:41:45,258:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-25 00:41:46,481:Updates were skipped successfully.
+INFO:2021-11-25 00:41:46,789:Start polling.
+INFO:2021-11-25 00:42:50,597:Stop polling...
+WARNING:2021-11-25 00:42:50,597:Goodbye!
+INFO:2021-11-26 10:40:48,115:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 10:40:49,060:Updates were skipped successfully.
+INFO:2021-11-26 10:40:49,608:Start polling.
+INFO:2021-11-26 10:42:42,774:Stop polling...
+WARNING:2021-11-26 10:42:42,775:Goodbye!
+INFO:2021-11-26 10:42:45,977:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 10:42:47,511:Updates were skipped successfully.
+INFO:2021-11-26 10:42:48,434:Start polling.
+INFO:2021-11-26 10:46:24,527:Stop polling...
+WARNING:2021-11-26 10:46:24,528:Goodbye!
+INFO:2021-11-26 10:46:27,260:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 10:46:28,795:Updates were skipped successfully.
+INFO:2021-11-26 10:46:29,512:Start polling.
+ERROR:2021-11-26 10:49:29,120:Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=DatabaseError(1366, "1366 (HY000): Incorrect string value: '\\xF0\\x9F\\x96\\xA5' for column 'article' at row 1", 'HY000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 75, in send_message
+    await message.answer(f"Дожидайтесь результата, скоро он будет отправлен вам.\n<i>Попыток осталось: {parsing_left_count - 1}</i>", parse_mode="HTML")
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 86, in parse_state
+    task_id = ''.join(random.choice(task_id) for _ in range(10))
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 138, in post_wb_place_user_request
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.DatabaseError: 1366 (HY000): Incorrect string value: '\xF0\x9F\x96\xA5' for column 'article' at row 1
+INFO:2021-11-26 10:54:51,407:Stop polling...
+WARNING:2021-11-26 10:54:51,408:Goodbye!
+INFO:2021-11-26 10:54:54,339:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 10:54:55,875:Updates were skipped successfully.
+INFO:2021-11-26 10:54:56,798:Start polling.
+INFO:2021-11-26 10:55:03,663:Stop polling...
+WARNING:2021-11-26 10:55:03,664:Goodbye!
+INFO:2021-11-26 11:58:30,967:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 11:58:32,401:Updates were skipped successfully.
+INFO:2021-11-26 11:58:33,221:Start polling.
+INFO:2021-11-26 12:14:25,521:Stop polling...
+WARNING:2021-11-26 12:14:25,522:Goodbye!
+INFO:2021-11-26 12:22:18,335:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 12:22:20,762:Updates were skipped successfully.
+INFO:2021-11-26 12:22:25,677:Start polling.
+INFO:2021-11-26 12:24:27,421:Stop polling...
+WARNING:2021-11-26 12:24:27,422:Goodbye!
+INFO:2021-11-26 12:33:10,071:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 12:33:11,607:Updates were skipped successfully.
+INFO:2021-11-26 12:33:12,324:Start polling.
+INFO:2021-11-26 12:34:38,065:Stop polling...
+WARNING:2021-11-26 12:34:38,066:Goodbye!
+INFO:2021-11-26 12:38:24,129:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 12:38:25,562:Updates were skipped successfully.
+INFO:2021-11-26 12:38:26,586:Start polling.
+ERROR:2021-11-26 12:39:11,327:Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=InterfaceError(2003, "2003: Can't connect to MySQL server on '149.154.64.48:3306' (10060 Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера)", None)>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\network.py", line 574, in open_connection
+    self.sock.connect(sockaddr)
+TimeoutError: [WinError 10060] Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\Handlers\Services\wb_place.py", line 78, in send_message
+    parsing_left_count = SQL().get_parsing_left_count(user_id)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 23, in __init__
+    self._conn = sql.connect(**CONFIG, allow_local_infile=True)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\__init__.py", line 273, in connect
+    return MySQLConnection(*args, **kwargs)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 114, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\abstracts.py", line 1009, in connect
+    self._open_connection()
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 418, in _open_connection
+    self._socket.open_connection()
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\network.py", line 576, in open_connection
+    raise errors.InterfaceError(
+mysql.connector.errors.InterfaceError: 2003: Can't connect to MySQL server on '149.154.64.48:3306' (10060 Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера)
+INFO:2021-11-26 12:39:43,736:Stop polling...
+WARNING:2021-11-26 12:39:43,738:Goodbye!
+INFO:2021-11-26 12:40:00,479:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 12:40:00,774:Updates were skipped successfully.
+INFO:2021-11-26 12:40:02,012:Start polling.
+ERROR:2021-11-26 16:47:45,964:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 544, in _request
+    await resp.start(conn)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client_reqrep.py", line 905, in start
+    self._continue = None
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+ERROR:2021-11-26 16:47:51,079:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+ERROR:2021-11-26 17:01:01,845:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+ERROR:2021-11-26 17:01:06,994:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+ERROR:2021-11-26 17:01:12,011:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 999, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 865, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\resolver.py", line 31, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 856, in getaddrinfo
+    return await self.run_in_executor(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\concurrent\futures\thread.py", line 52, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiohttp\connector.py", line 1011, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [getaddrinfo failed]
+INFO:2021-11-26 17:01:19,574:Stop polling...
+WARNING:2021-11-26 17:01:19,575:Goodbye!
+INFO:2021-11-26 17:01:23,698:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 17:01:24,813:Updates were skipped successfully.
+INFO:2021-11-26 17:01:25,075:Start polling.
+INFO:2021-11-26 17:02:31,895:Stop polling...
+WARNING:2021-11-26 17:02:31,896:Goodbye!
+INFO:2021-11-26 17:04:29,074:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 17:04:29,214:Updates were skipped successfully.
+INFO:2021-11-26 17:04:29,650:Start polling.
+INFO:2021-11-26 17:06:21,966:Stop polling...
+WARNING:2021-11-26 17:06:21,967:Goodbye!
+INFO:2021-11-26 17:08:49,722:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 17:08:50,948:Updates were skipped successfully.
+INFO:2021-11-26 17:08:51,259:Start polling.
+INFO:2021-11-26 17:09:55,340:Stop polling...
+WARNING:2021-11-26 17:09:55,342:Goodbye!
+INFO:2021-11-26 17:10:37,343:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 17:10:38,527:Updates were skipped successfully.
+INFO:2021-11-26 17:10:38,878:Start polling.
+INFO:2021-11-26 17:11:28,566:Stop polling...
+WARNING:2021-11-26 17:11:28,567:Goodbye!
+INFO:2021-11-26 17:11:30,900:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 17:11:32,057:Updates were skipped successfully.
+INFO:2021-11-26 17:11:32,470:Start polling.
+INFO:2021-11-26 17:12:27,163:Stop polling...
+WARNING:2021-11-26 17:12:27,164:Goodbye!
+INFO:2021-11-26 17:16:17,209:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-26 17:16:18,436:Updates were skipped successfully.
+INFO:2021-11-26 17:16:19,259:Start polling.
+INFO:2021-11-26 17:19:08,271:Stop polling...
+WARNING:2021-11-26 17:19:08,273:Goodbye!
+INFO:2021-11-27 21:27:09,596:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 21:27:09,796:Updates were skipped successfully.
+INFO:2021-11-27 21:27:10,209:Start polling.
+INFO:2021-11-27 21:27:58,283:Stop polling...
+INFO:2021-11-27 21:28:26,082:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 21:28:26,243:Updates were skipped successfully.
+INFO:2021-11-27 21:28:26,578:Start polling.
+INFO:2021-11-27 21:29:40,714:Stop polling...
+WARNING:2021-11-27 21:29:40,714:Goodbye!
+INFO:2021-11-27 21:29:43,703:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 21:29:44,878:Updates were skipped successfully.
+INFO:2021-11-27 21:29:45,243:Start polling.
+INFO:2021-11-27 21:32:54,898:Stop polling...
+WARNING:2021-11-27 21:32:54,898:Goodbye!
+INFO:2021-11-27 21:39:00,044:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 21:39:01,272:Updates were skipped successfully.
+INFO:2021-11-27 21:39:01,602:Start polling.
+INFO:2021-11-27 21:39:24,358:Stop polling...
+WARNING:2021-11-27 21:39:24,358:Goodbye!
+INFO:2021-11-27 22:05:14,350:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:05:14,554:Updates were skipped successfully.
+INFO:2021-11-27 22:05:15,270:Start polling.
+INFO:2021-11-27 22:06:44,321:Stop polling...
+WARNING:2021-11-27 22:06:44,322:Goodbye!
+INFO:2021-11-27 22:08:06,685:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:08:07,916:Updates were skipped successfully.
+INFO:2021-11-27 22:08:08,331:Start polling.
+INFO:2021-11-27 22:08:28,708:Stop polling...
+WARNING:2021-11-27 22:08:28,708:Goodbye!
+INFO:2021-11-27 22:13:58,017:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:13:58,228:Updates were skipped successfully.
+INFO:2021-11-27 22:13:58,536:Start polling.
+INFO:2021-11-27 22:14:00,787:Пользователь создан: 651155332, None
+INFO:2021-11-27 22:15:54,125:Stop polling...
+WARNING:2021-11-27 22:15:54,127:Goodbye!
+INFO:2021-11-27 22:16:32,548:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:16:33,768:Updates were skipped successfully.
+INFO:2021-11-27 22:16:34,184:Start polling.
+INFO:2021-11-27 22:21:25,932:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+ERROR:2021-11-27 22:21:26,073:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+WARNING:2021-11-27 22:21:27,065:Updates were skipped successfully.
+INFO:2021-11-27 22:21:27,358:Start polling.
+INFO:2021-11-27 22:21:27,450:Stop polling...
+WARNING:2021-11-27 22:21:27,452:Goodbye!
+INFO:2021-11-27 22:31:40,856:Stop polling...
+WARNING:2021-11-27 22:31:40,857:Goodbye!
+INFO:2021-11-27 22:32:11,940:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:32:13,193:Updates were skipped successfully.
+INFO:2021-11-27 22:32:13,768:Start polling.
+INFO:2021-11-27 22:32:49,405:Stop polling...
+WARNING:2021-11-27 22:32:49,405:Goodbye!
+INFO:2021-11-27 22:34:01,835:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:34:02,983:Updates were skipped successfully.
+INFO:2021-11-27 22:34:03,271:Start polling.
+INFO:2021-11-27 22:34:22,235:Stop polling...
+WARNING:2021-11-27 22:34:22,235:Goodbye!
+INFO:2021-11-27 22:34:42,390:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:34:43,614:Updates were skipped successfully.
+INFO:2021-11-27 22:34:43,929:Start polling.
+INFO:2021-11-27 22:37:07,186:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+ERROR:2021-11-27 22:37:07,354:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+INFO:2021-11-27 22:37:08,043:Stop polling...
+WARNING:2021-11-27 22:37:08,043:Goodbye!
+WARNING:2021-11-27 22:37:08,413:Updates were skipped successfully.
+INFO:2021-11-27 22:37:08,699:Start polling.
+INFO:2021-11-27 22:43:14,796:Stop polling...
+INFO:2021-11-27 22:43:17,976:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:43:18,181:Updates were skipped successfully.
+INFO:2021-11-27 22:43:18,592:Start polling.
+INFO:2021-11-27 22:43:58,980:Stop polling...
+WARNING:2021-11-27 22:43:58,980:Goodbye!
+INFO:2021-11-27 22:44:54,328:Bot: TEST_MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-11-27 22:44:54,463:Goodbye!

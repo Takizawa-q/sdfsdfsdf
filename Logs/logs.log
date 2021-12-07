@@ -1,0 +1,665 @@
+INFO:2021-10-04 21:56:00,633:Stop polling...
+WARNING:2021-10-04 21:56:00,635:Goodbye!
+INFO:2021-10-04 21:56:03,288:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 21:56:04,419:Updates were skipped successfully.
+INFO:2021-10-04 21:56:04,733:Start polling.
+ERROR:2021-10-04 21:56:14,741:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_ozon(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 99, in update_sm_ozon
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+INFO:2021-10-04 21:57:24,539:Stop polling...
+WARNING:2021-10-04 21:57:24,540:Goodbye!
+INFO:2021-10-04 21:57:27,931:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 21:57:29,107:Updates were skipped successfully.
+INFO:2021-10-04 21:57:29,557:Start polling.
+ERROR:2021-10-04 21:57:53,007:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_ozon(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 99, in update_sm_ozon
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+INFO:2021-10-04 21:59:00,923:Stop polling...
+WARNING:2021-10-04 21:59:00,924:Goodbye!
+INFO:2021-10-04 21:59:36,056:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 21:59:36,187:Updates were skipped successfully.
+INFO:2021-10-04 21:59:36,323:Start polling.
+ERROR:2021-10-04 21:59:37,880:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_ozon(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 99, in update_sm_ozon
+    self._cursor.execute(f"UPDATE tg_users SET sm_ozon = {amount} WHERE user_id = {user_id}")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ERROR:2021-10-04 21:59:40,061:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_ozon(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 99, in update_sm_ozon
+    self._cursor.execute(f"UPDATE tg_users SET sm_ozon = {amount} WHERE user_id = {user_id}")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ERROR:2021-10-04 22:01:30,396:Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_ozon(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 99, in update_sm_ozon
+    self._cursor.execute(f"UPDATE tg_users SET sm_ozon = {amount} WHERE user_id = {user_id}")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+INFO:2021-10-04 22:04:15,203:Stop polling...
+WARNING:2021-10-04 22:04:15,203:Goodbye!
+INFO:2021-10-04 22:04:17,649:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:04:18,783:Updates were skipped successfully.
+INFO:2021-10-04 22:04:19,315:Start polling.
+ERROR:2021-10-04 22:04:29,176:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_ozon(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 99, in update_sm_ozon
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+INFO:2021-10-04 22:05:17,033:Stop polling...
+WARNING:2021-10-04 22:05:17,034:Goodbye!
+INFO:2021-10-04 22:05:19,132:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:05:20,258:Updates were skipped successfully.
+INFO:2021-10-04 22:05:21,000:Start polling.
+ERROR:2021-10-04 22:05:24,115:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_wildberries(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 103, in update_sm_wildberries
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+INFO:2021-10-04 22:08:03,799:Stop polling...
+WARNING:2021-10-04 22:08:03,800:Goodbye!
+INFO:2021-10-04 22:08:08,084:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:08:09,207:Updates were skipped successfully.
+INFO:2021-10-04 22:08:09,393:Start polling.
+ERROR:2021-10-04 22:08:12,560:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 36, in send_welcome_message
+    SQL().update_sm_wildberries(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 103, in update_sm_wildberries
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+INFO:2021-10-04 22:09:52,016:Stop polling...
+WARNING:2021-10-04 22:09:52,017:Goodbye!
+INFO:2021-10-04 22:10:03,255:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:10:03,385:Updates were skipped successfully.
+INFO:2021-10-04 22:10:04,081:Start polling.
+ERROR:2021-10-04 22:10:05,626:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 37, in send_welcome_message
+    SQL().update_sm_wildberries(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 103, in update_sm_wildberries
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ERROR:2021-10-04 22:10:07,502:Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ProgrammingError(1064, "1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1", '42000')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 37, in send_welcome_message
+    SQL().update_sm_wildberries(user_id, 0)
+  File "c:\Users\xcraz\.vscode\TgBots\MySQL.py", line 103, in update_sm_wildberries
+    self._cursor.execute(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\cursor.py", line 568, in execute
+    self._handle_result(self._connection.cmd_query(stmt))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 846, in cmd_query
+    result = self._handle_result(self._send_cmd(ServerCmd.QUERY, query))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\mysql\connector\connection.py", line 656, in _handle_result
+    raise errors.get_exception(packet)
+mysql.connector.errors.ProgrammingError: 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+INFO:2021-10-04 22:10:30,506:Stop polling...
+WARNING:2021-10-04 22:10:30,507:Goodbye!
+INFO:2021-10-04 22:10:33,185:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:10:34,332:Updates were skipped successfully.
+INFO:2021-10-04 22:10:34,907:Start polling.
+INFO:2021-10-04 22:29:27,725:Stop polling...
+WARNING:2021-10-04 22:29:27,726:Goodbye!
+INFO:2021-10-04 22:30:54,350:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:30:55,578:Updates were skipped successfully.
+INFO:2021-10-04 22:30:55,784:Start polling.
+ERROR:2021-10-04 22:31:15,558:Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=TypeError('string indices must be integers')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 105, in send_message
+    text_to_send = f"""Название: {ud["item_name"]}
+TypeError: string indices must be integers
+INFO:2021-10-04 22:32:27,028:Stop polling...
+WARNING:2021-10-04 22:32:27,029:Goodbye!
+INFO:2021-10-04 22:32:30,304:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:32:31,530:Updates were skipped successfully.
+INFO:2021-10-04 22:32:32,053:Start polling.
+ERROR:2021-10-04 22:32:45,687:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=TypeError('string indices must be integers')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 109, in send_message
+    Название: {ud["item_name"]}
+TypeError: string indices must be integers
+INFO:2021-10-04 22:33:12,133:Stop polling...
+WARNING:2021-10-04 22:33:12,134:Goodbye!
+INFO:2021-10-04 22:33:15,660:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:33:17,316:Updates were skipped successfully.
+INFO:2021-10-04 22:33:18,186:Start polling.
+ERROR:2021-10-04 22:33:30,823:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ValueError('dictionary update sequence element #0 has length 1; 2 is required')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 107, in send_message
+    ud = dict(ud)
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+INFO:2021-10-04 22:35:19,998:Stop polling...
+WARNING:2021-10-04 22:35:20,000:Goodbye!
+INFO:2021-10-04 22:35:23,697:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:35:24,894:Updates were skipped successfully.
+INFO:2021-10-04 22:35:25,095:Start polling.
+ERROR:2021-10-04 22:35:36,084:Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=KeyError('color_name')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 122, in send_message
+    Цвет: {ud["color_name"]}
+KeyError: 'color_name'
+INFO:2021-10-04 22:36:29,816:Stop polling...
+WARNING:2021-10-04 22:36:29,817:Goodbye!
+INFO:2021-10-04 22:36:34,418:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:36:35,750:Updates were skipped successfully.
+INFO:2021-10-04 22:36:35,962:Start polling.
+INFO:2021-10-04 22:39:27,088:Stop polling...
+WARNING:2021-10-04 22:39:27,089:Goodbye!
+INFO:2021-10-04 22:39:30,659:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:39:31,878:Updates were skipped successfully.
+INFO:2021-10-04 22:39:32,082:Start polling.
+INFO:2021-10-04 22:48:45,414:Stop polling...
+WARNING:2021-10-04 22:48:45,415:Goodbye!
+INFO:2021-10-04 22:53:38,314:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 22:53:39,550:Updates were skipped successfully.
+INFO:2021-10-04 22:53:39,985:Start polling.
+INFO:2021-10-04 23:37:11,439:Stop polling...
+WARNING:2021-10-04 23:37:11,440:Goodbye!
+INFO:2021-10-04 23:48:39,667:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 23:48:40,783:Updates were skipped successfully.
+INFO:2021-10-04 23:48:40,885:Start polling.
+INFO:2021-10-04 23:49:25,871:Stop polling...
+WARNING:2021-10-04 23:49:25,871:Goodbye!
+INFO:2021-10-04 23:49:27,879:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 23:49:29,007:Updates were skipped successfully.
+INFO:2021-10-04 23:49:29,106:Start polling.
+INFO:2021-10-04 23:52:57,544:Stop polling...
+WARNING:2021-10-04 23:52:57,545:Goodbye!
+INFO:2021-10-04 23:53:01,494:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-04 23:53:02,662:Updates were skipped successfully.
+INFO:2021-10-04 23:53:02,776:Start polling.
+INFO:2021-10-04 23:59:23,367:Stop polling...
+WARNING:2021-10-04 23:59:23,368:Goodbye!
+INFO:2021-10-05 00:00:39,471:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-05 00:00:40,601:Updates were skipped successfully.
+INFO:2021-10-05 00:00:40,696:Start polling.
+INFO:2021-10-05 00:04:12,200:Stop polling...
+WARNING:2021-10-05 00:04:12,200:Goodbye!
+INFO:2021-10-05 00:04:14,139:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-05 00:04:15,278:Updates were skipped successfully.
+INFO:2021-10-05 00:04:15,516:Start polling.
+INFO:2021-10-05 00:08:06,726:Stop polling...
+WARNING:2021-10-05 00:08:06,726:Goodbye!
+INFO:2021-10-05 00:24:37,488:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-05 00:24:37,607:Updates were skipped successfully.
+INFO:2021-10-05 00:24:37,719:Start polling.
+INFO:2021-10-05 00:25:24,027:Stop polling...
+WARNING:2021-10-05 00:25:24,028:Goodbye!
+INFO:2021-10-07 09:12:17,928:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 09:12:19,254:Updates were skipped successfully.
+INFO:2021-10-07 09:12:19,406:Start polling.
+ERROR:2021-10-07 09:12:23,310:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+ERROR:2021-10-07 09:12:33,851:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+ERROR:2021-10-07 09:12:44,042:Cause exception while getting updates.
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 383, in start_polling
+    updates = await self.bot.get_updates(
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 97, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 119, in check_result
+    exceptions.ConflictError.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.TerminatedByOtherGetUpdates: Terminated by other getupdates request; make sure that only one bot instance is running
+INFO:2021-10-07 09:12:52,501:Stop polling...
+WARNING:2021-10-07 09:12:52,501:Goodbye!
+INFO:2021-10-07 09:12:57,812:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 09:12:59,143:Updates were skipped successfully.
+INFO:2021-10-07 09:12:59,347:Start polling.
+INFO:2021-10-07 09:29:59,967:Stop polling...
+WARNING:2021-10-07 09:29:59,967:Goodbye!
+INFO:2021-10-07 09:40:51,017:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 09:40:52,858:Updates were skipped successfully.
+INFO:2021-10-07 09:40:53,076:Start polling.
+INFO:2021-10-07 09:44:41,812:Stop polling...
+WARNING:2021-10-07 09:44:41,812:Goodbye!
+INFO:2021-10-07 09:44:58,014:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 09:44:59,748:Updates were skipped successfully.
+INFO:2021-10-07 09:44:59,870:Start polling.
+ERROR:2021-10-07 09:45:53,404:Task exception was never retrieved
+future: <Task finished name='Task-24' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=AttributeError("'Message' object has no attribute 'data'")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 259, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 107, in notify
+    data.update(await check_filters(handler_obj.filters, args))
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\filters\filters.py", line 72, in check_filters
+    f = await execute_filter(filter_, args)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\filters\filters.py", line 56, in execute_filter
+    return await filter_.filter(*args, **filter_.kwargs)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\filters\filters.py", line 161, in __call__
+    return await self.check(*args)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\callback_data.py", line 125, in check
+    data = self.factory.parse(query.data)
+AttributeError: 'Message' object has no attribute 'data'
+INFO:2021-10-07 09:47:47,501:Stop polling...
+WARNING:2021-10-07 09:47:47,501:Goodbye!
+INFO:2021-10-07 09:47:51,676:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 09:47:52,210:Updates were skipped successfully.
+INFO:2021-10-07 09:47:52,392:Start polling.
+INFO:2021-10-07 09:48:06,161:Stop polling...
+WARNING:2021-10-07 09:48:06,161:Goodbye!
+INFO:2021-10-07 09:48:09,978:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 09:48:10,733:Updates were skipped successfully.
+INFO:2021-10-07 09:48:10,823:Start polling.
+ERROR:2021-10-07 09:48:11,548:Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=InvalidQueryID('Query is too old and response timeout expired or query id is invalid')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 77, in send_message
+    await message.answer("Отправь сюда Артикул или ссылку на товар с WildBerries:")
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\types\callback_query.py", line 57, in answer
+    return await self.bot.answer_callback_query(callback_query_id=self.id,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\bot.py", line 2262, in answer_callback_query
+    return await self.request(api.Methods.ANSWER_CALLBACK_QUERY, payload)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\base.py", line 208, in request
+    return await api.make_request(self.session, self.server, self.__token, method, data, files,
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\utils\exceptions.py", line 140, in detect
+    raise err(cls.text or description)
+aiogram.utils.exceptions.InvalidQueryID: Query is too old and response timeout expired or query id is invalid
+INFO:2021-10-07 09:52:44,252:Stop polling...
+WARNING:2021-10-07 09:52:44,252:Goodbye!
+INFO:2021-10-07 09:52:48,214:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 09:52:49,448:Updates were skipped successfully.
+INFO:2021-10-07 09:52:49,580:Start polling.
+INFO:2021-10-07 09:53:36,168:Stop polling...
+WARNING:2021-10-07 09:53:36,168:Goodbye!
+INFO:2021-10-07 09:53:44,538:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 09:53:45,049:Updates were skipped successfully.
+INFO:2021-10-07 09:53:45,159:Start polling.
+INFO:2021-10-07 09:59:58,724:Stop polling...
+WARNING:2021-10-07 09:59:58,724:Goodbye!
+INFO:2021-10-07 10:00:01,774:Regening user_parsing_left_count
+INFO:2021-10-07 10:00:02,806:Something is wrong in regen_tries. User is - ('837002134',). Error: Traceback (most recent call last):
+  File "c:\Users\xcraz\.vscode\TgBots\regen_tries.py", line 15, in main
+    SQL().parsing_left_count_set_10(user_id=user_id[0], amount=20)
+AttributeError: 'SQL' object has no attribute 'parsing_left_count_set_10'
+
+INFO:2021-10-07 10:00:04,167:Something is wrong in regen_tries. User is - ('951717957',). Error: Traceback (most recent call last):
+  File "c:\Users\xcraz\.vscode\TgBots\regen_tries.py", line 15, in main
+    SQL().parsing_left_count_set_10(user_id=user_id[0], amount=20)
+AttributeError: 'SQL' object has no attribute 'parsing_left_count_set_10'
+
+INFO:2021-10-07 10:00:04,167:Regening user_parsing_left_count is Done!
+INFO:2021-10-07 10:03:15,654:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 10:03:16,831:Updates were skipped successfully.
+INFO:2021-10-07 10:03:17,005:Start polling.
+INFO:2021-10-07 10:04:04,866:Stop polling...
+WARNING:2021-10-07 10:04:04,866:Goodbye!
+INFO:2021-10-07 10:07:59,265:Regening user_parsing_left_count
+INFO:2021-10-07 10:08:02,753:Regening user_parsing_left_count is Done!
+INFO:2021-10-07 10:19:07,473:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 10:19:07,671:Updates were skipped successfully.
+INFO:2021-10-07 10:19:07,837:Start polling.
+INFO:2021-10-07 10:34:18,958:Stop polling...
+WARNING:2021-10-07 10:34:18,958:Goodbye!
+INFO:2021-10-07 10:34:22,569:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 10:34:23,904:Updates were skipped successfully.
+INFO:2021-10-07 10:34:24,005:Start polling.
+INFO:2021-10-07 10:37:26,978:Stop polling...
+WARNING:2021-10-07 10:37:26,978:Goodbye!
+INFO:2021-10-07 10:38:09,816:Bot: MP_PARSER_BOT [@WBCON_PARSER_BOT]
+WARNING:2021-10-07 10:38:10,997:Updates were skipped successfully.
+INFO:2021-10-07 10:38:11,167:Start polling.
+INFO:2021-10-07 10:39:04,132:Stop polling...
+WARNING:2021-10-07 10:39:04,133:Goodbye!
+INFO:2021-10-07 17:04:48,789:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 17:04:50,017:Updates were skipped successfully.
+INFO:2021-10-07 17:04:50,229:Start polling.
+ERROR:2021-10-07 17:05:16,068:Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ZeroDivisionError('division by zero')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 200, in send_message
+    discount = round((1 - (int(ud["item_price_with_sale"]) / int(ud["item_price"]))) * 100, 1)
+ZeroDivisionError: division by zero
+ERROR:2021-10-07 17:06:01,927:Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=ZeroDivisionError('division by zero')>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 200, in send_message
+    discount = round((1 - (int(ud["item_price_with_sale"]) / int(ud["item_price"]))) * 100, 1)
+ZeroDivisionError: division by zero
+INFO:2021-10-07 17:08:55,657:Stop polling...
+WARNING:2021-10-07 17:08:55,657:Goodbye!
+INFO:2021-10-07 17:09:03,491:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 17:09:04,768:Updates were skipped successfully.
+INFO:2021-10-07 17:09:04,959:Start polling.
+INFO:2021-10-07 17:11:04,526:Stop polling...
+WARNING:2021-10-07 17:11:04,534:Goodbye!
+INFO:2021-10-07 17:11:07,397:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 17:11:08,639:Updates were skipped successfully.
+INFO:2021-10-07 17:11:08,932:Start polling.
+INFO:2021-10-07 17:11:52,863:Stop polling...
+WARNING:2021-10-07 17:11:52,864:Goodbye!
+INFO:2021-10-07 17:11:56,036:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 17:11:58,523:Updates were skipped successfully.
+INFO:2021-10-07 17:11:58,690:Start polling.
+INFO:2021-10-07 17:14:25,676:Stop polling...
+WARNING:2021-10-07 17:14:25,677:Polling is stopped.
+WARNING:2021-10-07 17:14:25,677:Goodbye!
+INFO:2021-10-07 17:16:32,928:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 17:16:34,510:Updates were skipped successfully.
+INFO:2021-10-07 17:16:34,730:Start polling.
+ERROR:2021-10-07 17:16:55,051:Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py:409> exception=AttributeError("'NoneType' object has no attribute 'group'")>
+Traceback (most recent call last):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 417, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 238, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 286, in process_update
+    return await self.callback_query_handlers.notify(update.callback_query)
+  File "C:\Users\xcraz\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "c:\Users\xcraz\.vscode\TgBots\main.py", line 121, in send_message
+    message_text = re.search(
+AttributeError: 'NoneType' object has no attribute 'group'
+INFO:2021-10-07 17:17:24,749:Stop polling...
+WARNING:2021-10-07 17:17:24,757:Goodbye!
+INFO:2021-10-07 17:17:27,668:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 17:17:29,278:Updates were skipped successfully.
+INFO:2021-10-07 17:17:29,399:Start polling.
+INFO:2021-10-07 17:17:38,671:Stop polling...
+WARNING:2021-10-07 17:17:38,671:Goodbye!
+INFO:2021-10-07 17:17:45,418:Regening user_parsing_left_count
+INFO:2021-10-07 17:17:48,307:Regening user_parsing_left_count is Done!
+INFO:2021-10-07 17:18:02,061:Bot: MP_PARSER_BOT [@ozon_parser_bot]
+WARNING:2021-10-07 17:18:02,677:Updates were skipped successfully.
+INFO:2021-10-07 17:18:02,789:Start polling.
+INFO:2021-10-07 17:21:17,665:Stop polling...

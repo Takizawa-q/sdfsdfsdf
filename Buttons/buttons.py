@@ -1,0 +1,15 @@
+from aiogram.types import KeyboardButton
+
+profile_button = KeyboardButton("Профиль 💼")
+excel_button = KeyboardButton("Excel 🟩")
+txt_button = KeyboardButton("Txt 🗒")
+back_button = KeyboardButton("Назад 🔙")
+chat_button = KeyboardButton("Здесь в чате 💬")
+parsing_button = KeyboardButton("Парсинг 🖥")
+change_output_type_button = KeyboardButton("Формат данных 🔃")
+help_button = KeyboardButton("Помощь 🕵️")
+ozon_button = KeyboardButton("Ozon🔵")
+wb_button = KeyboardButton("WildBerries🟣")
+parsers_button = KeyboardButton("Парсеры 🖥")
+services_button = KeyboardButton("Сервисы 💻")
+limit_button = KeyboardButton("Отслеживание лимитов складов WB🟣")
