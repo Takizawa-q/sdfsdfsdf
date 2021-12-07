@@ -16,12 +16,13 @@ async def send_welcome_message(message: types.Message):
     user_id = SQL().find_user_in_table(message.from_user.id)
     
     if not user_id:
-        SQL().create_user(message.from_user.id, user_username, user_first_name)
+        try:
+            SQL().create_user(message.from_user.id, user_username, user_first_name)
+        except:
+            SQL().create_user(message.from_user.id, "errorM", "errorM")
         logging.info(
             f"Пользователь создан: {str(message.from_user.id)}, {user_username}")
-    else:
-        SQL().update_sm_wildberries(user_id[0], 0)
-        SQL().update_sm_ozon(user_id[0], 0)
+        
     parsing_left_count = SQL().get_parsing_left_count(message.from_user.id)
     await message.answer(f"➖➖➖➖➖➖➖➖➖\nВаш профиль:\n    🆔 Ваш id: {message.from_user.id}\n    👤 Ваше имя: {user_first_name}\n    🤖 Ваш юзернейм: {user_username}\n    💻Попыток для парсинга осталось: {parsing_left_count}\n➖➖➖➖➖➖➖➖➖")
 

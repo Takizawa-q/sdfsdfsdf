@@ -1,2 +1,3 @@
-from random import randint
-print(f"Член Арслана: {randint(1, 31)}")
+a: int = 5
+if a.
+print(a)
